@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <img src="logo.jpg" alt="logo" width="100" height="50">
+                </div>
+                <div class="col-xs-10">
+                    <div class="row end-xs">
+                        <div class="col-xs-12">
+                            <form action="" class="search_form">
+                                <div class="search">
+                                    <input type="text" placeholder="Meklēt" class="search_input">
+                                        <button type="submit" class="search_button">
+                                            <img src="search.png" alt="search" class="search_image" width="14" height="14">
+                                </button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <nav class="nav">
+                            <a href="index.html" class="nav_item">
+                                Sākums
+                            </a>
+                            <a href="" class="nav_item">
+                                Par mums
+                            </a>
+                            <a href="komment.html" class="nav_item">
+                                komentari un kontakti
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="com" >
+        <div class="container">
+            
+                <h3>Pievienoti komentāri</h3>
+                <form class="js_form">
+                    <label for="name">Vārds</label> <br>
+                    <input type="text" name="text" id="name" class="js_form_text">
+                    <br><br>
+                    <label for="email">E-pasts</label> <br>
+                    <input type="email" name="text" id="email" class="js_form_email">
+                    <br><br>
+                    <label for="body">komentārs</label> <br>
+                    <textarea name="body" id="body" cols="30" rows="10" class="js_form_body"></textarea>
+                        <br><br>
+                    <button type="submit">
+                        Iesniegt
+                    </button>
+                    
+                </form>
+                
+                <h3>Pieejamie komentāri</h3>
+                    <hr>
+                <div class="comments js_comments">
+            
+                </div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-3">
+                    <img src="logo.jpg" alt="logo"  width="100" height="50"> 
+                </div>
+                <div class="col-xs-6">
+                    <h3>kontakti:</h3>
+                    <span><b> E-pasts: david1kraft1@gmail.com</b></span>
+                    <br>
+                    <span><b>tel:  +371 23 596 327</b></span>
+                </div>
+                <div class="col-xs-3">
+                    <h3>navigacija</h3>  
+                    <a href="index.html">sakums</a> <br>
+                    <a href="">par mums</a> <br>
+                    <a href="komment.html">komentari un kontakti</a> <br>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="c">
+        <div class="container">
+            <div class="row center-xs">
+                <div class="col-xs-12">
+                    Izstradaja Davids Krafts
+                </div>
+        </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+
+</body>
+</html>
